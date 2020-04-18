@@ -1,0 +1,24 @@
+{
+  "name": "award-plugin-webpack-include",
+  "version": "0.0.1",
+  "description": "自定义webpack编译include插件",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rm -rf src/lib && tsc -w --sourceMap",
+    "postinstall": "rm -rf src/lib && tsc",
+    "build": "rm -rf src/lib && tsc && cd src && npm publish"
+  },
+  "author": "topthinking <topthinking@ximalaya.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "award": "latest",
+    "award-plugin-webpack-include": "link:./src",
+    "award-scripts": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  }
+}

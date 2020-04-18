@@ -1,0 +1,9 @@
+{
+  "name": "award-plugin-webpack-include",
+  "version": "0.0.1",
+  "description": "一个Award框架的插件",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "author": "topthinking <topthinking@ximalaya.com>",
+  "dependencies": {}
+}
